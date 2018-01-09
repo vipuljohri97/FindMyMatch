@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Find My Match</title>
+
+ 
+
+
+
+		<meta name="description" content="A Service to help you find your best match">
+		
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/league.css" id="theme">
+  		<link rel="shortcut icon" href="assets/images/icon.png" type="image/x-icon">
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<script type="text/javascript">
+			var radios = document.getElementsByID('choice');
+			var radio_length=radios.length;
+			var final_radios=[];
+			for (i=0;i<radio_length;i++)
+			{
+				if(radios[i].checked)
+				{
+					final_radios[i].push(radios[i]);
+
+				}
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+	
+				<section>
+					<h2>We've got a set of qustions for you</h2>
+					<p>
+						It'll help us in finding the best match for you
+						<br><br><br>
+						<p>*(1 being the least agreed and 5 being the most agreed)</p> 
+					</p>
+
+				</section>
+				<section>
+					<font size="20">1. Your home and work environments are quite tidy </font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q1"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q1"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q1"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q1"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q1"></label>
+				</p>
+						
+				</section>
+
+				<section>
+					<font size="20">2. You find it difficult to introduce yourself to other people</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q2"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q2"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q2"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q2"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q2"></label>
+				</p>
+						
+				</section>
+
+				<section>
+					<font size="20">3. You are a reserved and a quiet person</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q3"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q3"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q3"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q3"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q3"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">4. You enjoy going to social events that involve dress up or role playing activities.</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q4"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q4"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q4"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q4"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q4"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">5. You rarely do something out of sheer curiosity</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q5"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q5"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q5"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q5"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q5"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">6. You try to respond to your messages ASAP and can't stand a messy inbox.</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q6"s></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q6"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q6"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q6"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q6"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">7. You change your mood very quickly</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q7"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q7"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q7"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q7"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q7"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">8. You are more of a natural improviser than a careful planner</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q8"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q8"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q8"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q8"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q8"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">9. You feel superior to other people .</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q9"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q9"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q9"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q9"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q9"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">10. You do not mind cheating to get ahead</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q10"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q10"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q10"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q10"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q10"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">11. Your dreams tend to focus on real world and its events</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q11"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q11"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q11"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q11"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q11"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">12. You rarely feel insecure</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q12"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q12"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q12"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q12"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q12"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">13. You find it difficult to relax when talking in front of many people</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q13"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q13"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q13"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q13"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q13"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">14. You prefer to work in a team</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q14"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q14"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q14"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q14"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q14"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">15. If someone doesn't reply quickly , you start worrying if you said something wrong.</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q15"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q15"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q15"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q15"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q15"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">16. Winning a debate matters to you more than making sure no one is upset</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q16"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q16"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q16"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q16"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q16"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">17. You often feel you have to justify yourself to other people</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q17"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q17"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q17"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q17"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q17"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">18. You seek feedback from others , even if you know it will be negative</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q18"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q18"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q18"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q18"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q18"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">19. You consider yourself more practical than creative</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q19"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q19"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q19"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q19"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q19"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">20. No surprises is better than surprises -bad or good ones</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q20"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q20"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q20"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q20"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q20"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">21.Being right is more important than being cooperative</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q21"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q21"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q21"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q21"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q21"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">22. When someone has a problem , you start by offering emotional support rather than advice.</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q22"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q22"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q22"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q22"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q22"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">23. You find it easy to relax and focus even if you are under pressure.</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q23"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q23"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q23"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q23"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q23"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">24.You over indulge and go on "binges".</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q24"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q24"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q24"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q24"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q24"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">25. You do not let people influence your actions</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q25"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q25"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q25"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q25"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q25"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">26. You are often envious of others</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q26"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q26"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q26"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q26"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q26"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">27. Being organised is more important to you than being adaptable </font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q27"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q27"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q27"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q27"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q27"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">28. Interesting book or a video game is better than a social event</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q28"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q28"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q28"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q28"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q28"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">29. You do not mind being at centre of attention</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q29"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q29"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q29"v></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q29"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q29"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">30. You take initiative in social situations</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q30"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q30"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q30"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q30"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q30"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">31. You do not usually initiate conversations</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q31"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q31"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q31"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q31"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q31"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">32. Logic is usually more important than heart when it comes to making important decisions</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q32"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q32"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q32"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q32"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q32"></label>
+				</p>
+						
+				</section>
+				
+				<section>
+					<font size="20">33. You see yourself as emotionally stable.</font>
+					<p>
+					<label style="position:absolute;left:150px">1<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="1" name="q33"></label>
+					<label style="position:absolute;left:300px">2<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="2" name="q33"></label>
+					<label style="position:absolute;left:450px">3<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="3" name="q33"></label>	
+					<label style="position:absolute;left:600px">4<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="4" name="q33"></label>
+					<label style="position:absolute;left:750px">5<input type="radio" style="position:absolute;top:20px;left:30px;" id="choice" value="5" name="q33"></label>
+				</p>
+						
+				</section>
+
+				<section  >
+					
+					<a class="btn btn-md btn-black-outline display-4 transparent" href="page4.html">Proceed </a>
+                
+            	
+        
+  
+				</section>				
+				
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script type="text/javascript">
+			var radios = document.getElementsByID('choice');
+			var radio_length=radios.length;
+			var final_radios=[];
+			for (i=0;i<radio_length;i++)
+			{
+				if(radios[i].checked)
+				{
+					final_radios[i].push(radios[i]);
+
+				}
+			}
+		</script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+
+  
+
+	</body>
+</html>
